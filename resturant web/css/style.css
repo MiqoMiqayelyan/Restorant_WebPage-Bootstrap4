@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+}
+html {
+    box-sizing: inherit
+}
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header {
+    min-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.logo_div {
+    min-height: 110px;
+    justify-content: space-evenly;
+}
+.logotype {
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/Logo-Image.png);
+    height: 110px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.logotype p {
+    position: absolute;
+    top: 5px;
+    left: -14px;
+    font-size: 40px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.header_menu {
+    min-height: 110px;
+    text-align: center;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+
+
+.header_menu ul  {
+    min-height: 28px;
+    justify-content: space-evenly;
+}
+.header_menu ul li a {
+    font-family: 'Lato', sans-serif;
+}
+
+.hed_men_photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/Social.png);
+    height: 21px;
+}
+.header_text {
+    min-height: 450px;
+    margin: 0 auto;
+}
+.header_text h1 {
+    display: block;
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+.header_text p {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/header_Decoration.png);
+    min-height: 50px;
+}
+.header_buttons {
+    text-align: center;
+    min-height: 60px;
+    margin:30px 0 50px 0;
+   
+}
+.header_buttons input {
+    min-height: 60px;
+    font-size: 20px;
+    color: rgb(182, 174, 174);
+    background-color: #f1f3ff;
+    text-transform: uppercase;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    margin-right: 10px;
+}
+
+.header_buttons input:hover {
+    background-color: #292929;
+    border-color: #292929;
+    opacity: 0.6;
+}
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(..//img/main-bg.png);
+}
+.first_right_food {
+    min-height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.first_right_food .about_after {
+    display: inline-block;
+    
+}
+.first_right_food .about_after h2 {
+    color: #cc9900;
+    font-size: 36px;
+    padding-top: 100px;
+}
+
+.first_right_food .about_after .first_right_food_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/first-right-food-Divider.png);
+    min-height: 50px;
+    margin-top: 15px;
+}
+.first_right_food .about_after p {
+    color: #9d9d9d;
+    font-size: 16px;
+    line-height: 1,5;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+.first_right_food .about_after .after-photo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/first_right_food_after.png);
+    min-height: 220px;
+    margin-top: 20px;
+}
+.first_right_food .right_food_photo {
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/first_righ_food.png);
+    height: 600px;
+    margin-top: 100px;
+    opacity: 0;
+    transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+}
+.fine_ingredient {
+    height: 750px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/ingrediends_bg.png);
+
+}
+.fine_ingredient .ingredient_text {
+    background-color: #000;
+    opacity: 0.7;
+    text-align: center;
+   
+}
+.fine_ingredient .ingredient_text h2 {
+    color: #fff;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Yeseva One', cursive;
+}
+.fine_ingredient .ingredient_text .fine_ingredients_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/header_Decoration.png);
+    min-height: 45px;
+}
+.fine_ingredient .ingredient_text .fine_p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.8;
+}
+.fine_ingredient .ingredient_text ul li {
+    display: inline-block;
+    height: 110px;
+}
+.fine_ingredient .ingredient_text ul .ingredient_li1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/ingredient1.png);
+    height: 100px;
+}
+.fine_ingredient .ingredient_text ul .ingredient_li2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/ingredient2.png);
+    height: 100px;
+}
+.fine_ingredient .ingredient_text ul .ingredient_li3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/ingredient3.png);
+    height: 100px;
+}
+.food_menu {
+    min-height: 400px;
+    text-align: center;
+}
+.food_menu .first_menu_div{
+    display: inline-block;
+}
+.food_menu .first_menu_div h3{
+    font-size: 36px;
+    text-align: center;
+    color: #cc9900;
+    margin-top: 100px;
+}
+.food_menu .first_menu_div .food_menu_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/first-right-food-Divider.png);
+    height: 50px;
+}
+.food_menu .first_menu_div .food_menu_name_div{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    border-bottom: 1px solid #e7e4cd;
+}
+.food_menu .first_menu_div  .food_menu_name_div span {
+    color: #cc9900;
+    font-size: 18px;
+}
+.food_menu .first_menu_div p {
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0;
+    text-align: left;
+}
+.food_menu  .wrap {
+    margin-bottom: 63px; 
+}
+.spaccial_price {
+    border-right: 1px solid #e7e4cd;
+    
+}
+.spaccial_price::after{
+    content: url(../img/manu_speccial_price.png);
+    position: absolute;
+    top: -30px;
+    right: -12px;
+}
+.spaccial_price::before {
+    content: "Special";
+    position: absolute;
+    top: -21px;
+    right: 4px;
+    z-index: 2;
+    color: #fff;
+}
+.guest_revievs {
+    height: 600px;
+    max-height: 710px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/guest_reviev_bg.png);
+    padding-top: 90px;
+}
+
+
+.guest_revievs .guest_text {
+    margin: 0 auto;
+    background-color: #000;
+    opacity: 0.7;
+    height: 450px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.guest_revievs .guest_text .fine_ingredients_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/header_Decoration.png);
+    height: 45px;
+}
+.guest_revievs .guest_text h2 {
+    color: #fff;
+    height: 50px;
+    margin: 0 auto;
+    font-family: 'Yeseva One', cursive;
+}
+.guest_revievs .guest_text .text,p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 2;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    position: relative;
+}
+.guest_revievs .guest_text .text::before{
+    content: ",,";
+    font-size: 80px;
+    color: #999c9b;
+    position: absolute;
+    top: -104px;
+    left: -16px;
+}   
+.right_food_form {
+    height: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+@keyframes shadow {
+    from {margin-left: -550px;}
+    25% {margin-left: -350px;}
+    50% {margin-left: -220px;}
+    75% {margin-left: -100px;}
+    to {margin-left: 0;}
+}
+.right_food_form .form_photos {
+    display: inline-block;
+    width: 50%;
+   
+}
+
+.right_food_form .form_div {
+    display: inline-block;
+}
+
+.right_food_form .form_div h2 {
+    color: #cc9900;
+    height: 50px;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.right_food_form .form_div .fine_ingredients_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/first-right-food-Divider.png);
+    height: 40px;
+}
+.right_food_form .form_div .text {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 2;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    position: relative;
+}
+.right_food_form .form_div form {
+    text-align: center;
+    margin: 0 auto;
+}
+.right_food_form .form_div form input {
+    height: 30px;
+    margin: 15px;
+}
+.right_food_form .form_div form input:hover {
+    border-color: #c89f2d;
+    box-shadow: none;
+}
+.right_food_form .form_div form button {
+    background-color: #c89f2d;
+    border: none;
+    height: 29px;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    cursor: pointer;
+}
+.right_food_form .form_div form button:hover {
+    background-color: #f7c438;
+}
+
+footer {
+    background-color: #191919;
+    min-height: 320px;
+    padding-top: 50px;
+    margin-top: 90px;
+}
+footer .about_us {
+    text-align: center;
+}
+footer .fine_ingredients_divider {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/header_Decoration.png);
+    height: 45px;
+}
+footer  h4  {
+    color: #fff;
+    font-size: 20px;
+}
+footer .opening_time, .location {
+    text-align: center;
+}
+footer .opening_time .cards {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/footer_cards.png);
+    height: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+footer .location .websites{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/footer_websites.png);
+    height: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1250px) {
+    .right_food_form .form_photos {
+        display: none;
+    }
+    .right_food_form  {
+        text-align: center;
+    }
+    .hed_men_photo{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .first_right_food .right_food_photo {
+        display: none;
+    }
+    footer .wrapper {
+        flex-wrap: wrap;
+    }
+}

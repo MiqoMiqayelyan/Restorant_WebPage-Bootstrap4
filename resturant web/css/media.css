@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1250px) {
+    .right_food_form .form_photos {
+        display: none;
+    }
+    .right_food_form  {
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 689px) {
+    .logotype {
+        width: 50%;
+    }
+    .header_menu {
+        width: 93%;
+    }
+    .guest_revievs .guest_text .fine_ingredients_divider {
+        display: none;
+    }
+    .guest_revievs .guest_text {
+        width: 97%;
+    }
+    .guest_revievs .guest_text .text::before {
+        display: none;
+    }
+    footer .wrapper {
+        flex-direction: column;
+    }
+    .header_text h1 {
+        font-size: 50px;
+    }
+    .first_right_food .right_food_photo{
+        display: none;
+    }
+    .header_buttons {
+        flex-direction: column;
+    }
+    .header_buttons input {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .food_menu .wrapper {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .guest_revievs .guest_text {
+        width: 97%;
+        height: 550px;
+    }
+    .guest_revievs .guest_text h2 {
+        height: 90px;
+    }
+    .food_menu .up {
+        margin-top: -50px;
+    }
+    .fine_ingredient .ingredient_text {
+        width: 100%;
+    }
+    .first_right_food .about_after {
+        width: 70%;
+    }
+    .food_menu .first_menu_div {
+        width: 80%;
+    }
+    .guest_revievs {
+        width: 100%;
+    }
+    .header_text h1 {
+        font-size: 38px;
+    }
+    .right_food_form .form_div {
+        width: 80%;
+    }
+    footer .wrapper div {
+        width: 80%;
+    }
+}

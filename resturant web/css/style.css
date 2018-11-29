@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Yeseva One', cursive;
+    font-weight: 400;
 }
-html {
-    box-sizing: inherit
-}
+
 body {
     margin: 0 auto;
     overflow-x: hidden;
@@ -13,13 +12,16 @@ body {
 }
 li {
     list-style-type: none;
+    
 }
 a {
     text-decoration: none;
     color: aliceblue;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 header {
+    width: 100%;
     min-height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,13 +31,21 @@ header {
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo_div {
     min-height: 110px;
-    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .logotype {
+    width: 23%;
     background-size: inherit;
     background-repeat: no-repeat;
     background-position: center;
@@ -43,33 +53,45 @@ header {
     height: 110px;
     position: relative;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .logotype p {
+    width: 100%;
     position: absolute;
     top: 5px;
-    left: -14px;
     font-size: 40px;
     color: aliceblue;
     text-transform: uppercase;
 }
 .header_menu {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 110px;
     text-align: center;
-    margin-left: 50px;
     justify-content: space-evenly;
 }
 
 
 .header_menu ul  {
+    width: 100%;
     min-height: 28px;
+    display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 .header_menu ul li a {
     font-family: 'Lato', sans-serif;
 }
 
 .hed_men_photo {
+    width: 81px;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: contain;
@@ -77,10 +99,15 @@ header {
     height: 21px;
 }
 .header_text {
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: 450px;
     margin: 0 auto;
 }
 .header_text h1 {
+    width: 100%;
     display: block;
     font-size: 90px;
     color: #fff;
@@ -88,23 +115,30 @@ header {
     line-height: 1.5;
 }
 .header_text p {
+    width: 247px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/header_Decoration.png);
-    min-height: 50px;
+    height: 77px;
 }
 .header_buttons {
-    text-align: center;
-    min-height: 60px;
-    margin:30px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
    
 }
 .header_buttons input {
-    min-height: 60px;
+    width: 40%;
+    height: 60px;
+    opacity: 0.6;
     font-size: 20px;
     color: rgb(182, 174, 174);
-    background-color: #f1f3ff;
+    background-color: #ffffff;
     text-transform: uppercase;
     transition: 1s;
     -webkit-transition: 1s;
@@ -116,26 +150,40 @@ header {
 
 .header_buttons input:hover {
     background-color: #292929;
-    border-color: #292929;
-    opacity: 0.6;
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px 2px black inset;
+    border: none;
 }
 main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(..//img/main-bg.png);
 }
 .first_right_food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     min-height: 600px;
     text-align: center;
-    margin: 0 auto;
     
 }
 .first_right_food .about_after {
-    display: inline-block;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .first_right_food .about_after h2 {
+    width: 100%;
     color: #cc9900;
     font-size: 36px;
     padding-top: 100px;
@@ -146,7 +194,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/first-right-food-Divider.png);
-    min-height: 50px;
+    height: 53px;
+    width: 251px;
     margin-top: 15px;
 }
 .first_right_food .about_after p {
@@ -161,17 +210,17 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/first_right_food_after.png);
-    min-height: 220px;
+    height: 220px;
+    width: 219px;
     margin-top: 20px;
 }
 .first_right_food .right_food_photo {
-    display: inline-block;
-    position: relative;
+    width: 621px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/first_righ_food.png);
-    height: 600px;
+    height: 625px;
     margin-top: 100px;
     opacity: 0;
     transition: 3s;
@@ -181,6 +230,10 @@ main {
     -o-transition: 3s;
 }
 .fine_ingredient {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 750px;
     text-align: center;
     background-size: cover;
@@ -189,17 +242,26 @@ main {
     background-image: url(../img/ingrediends_bg.png);
 
 }
+.fine_ingredient .ingredient_wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
 .fine_ingredient .ingredient_text {
+    width: 40%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
     opacity: 0.7;
-    text-align: center;
    
 }
 .fine_ingredient .ingredient_text h2 {
     color: #fff;
+    font-size: 36px;
     min-height: 50px;
-    margin: 0 auto;
-    margin-top: 50px;
     font-family: 'Yeseva One', cursive;
 }
 .fine_ingredient .ingredient_text .fine_ingredients_divider {
@@ -207,19 +269,27 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/header_Decoration.png);
-    min-height: 45px;
+    height: 75px;
+    width: 90%;
 }
 .fine_ingredient .ingredient_text .fine_p {
     color: #fff;
+    width: 80%;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     margin-top: 10px;
     text-align: center;
     line-height: 1.8;
 }
+.fine_ingredient .ingredient_text ul {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .fine_ingredient .ingredient_text ul li {
-    display: inline-block;
     height: 110px;
+    width: 110px;
 }
 .fine_ingredient .ingredient_text ul .ingredient_li1 {
     background-size: contain;
@@ -243,13 +313,29 @@ main {
     height: 100px;
 }
 .food_menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 400px;
     text-align: center;
 }
+.food_menu .wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 .food_menu .first_menu_div{
-    display: inline-block;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .food_menu .first_menu_div h3{
+    width: 100%;
     font-size: 36px;
     text-align: center;
     color: #cc9900;
@@ -261,8 +347,18 @@ main {
     background-position: center;
     background-image: url(../img/first-right-food-Divider.png);
     height: 50px;
+    width: 251px;
+}
+.food_menu .food_menu_name_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .food_menu .first_menu_div .food_menu_name_div{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height: 35px;
@@ -273,22 +369,27 @@ main {
     font-size: 18px;
 }
 .food_menu .first_menu_div p {
+    width: 100%;
     color: #4c4c4c;
     font-family: 'Lato', sans-serif;
-    margin: 30px 0;
     text-align: left;
 }
 .food_menu  .wrap {
-    margin-bottom: 63px; 
+    margin-bottom: 123px; 
 }
-.spaccial_price {
-    border-right: 1px solid #e7e4cd;
+.food_menu .spaccial_price {
+    border: 1px solid #e7e4cd;
+    position: relative;
+    padding: 5px;
     
+}
+.food_menu .up {
+ margin-top: -170px;
 }
 .spaccial_price::after{
     content: url(../img/manu_speccial_price.png);
     position: absolute;
-    top: -30px;
+    top: -32px;
     right: -12px;
 }
 .spaccial_price::before {
@@ -300,24 +401,29 @@ main {
     color: #fff;
 }
 .guest_revievs {
-    height: 600px;
-    max-height: 710px;
-    text-align: center;
+    height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/guest_reviev_bg.png);
-    padding-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .guest_revievs .guest_text {
-    margin: 0 auto;
+    padding: 15px;
+    width: 60%;
     background-color: #000;
     opacity: 0.7;
     height: 450px;
     text-align: center;
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .guest_revievs .guest_text .fine_ingredients_divider {
@@ -325,17 +431,20 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/header_Decoration.png);
-    height: 45px;
+    height: 75px;
+    width: 247px
 }
 .guest_revievs .guest_text h2 {
     color: #fff;
     height: 50px;
-    margin: 0 auto;
+    font-size: 36px;
+    width: 70%;
     font-family: 'Yeseva One', cursive;
 }
 .guest_revievs .guest_text .text,p {
     color: #fff;
-    font-size: 16px;
+    width: 60%;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     margin-top: 10px;
     text-align: center;
@@ -356,7 +465,10 @@ main {
 .right_food_form {
     height: auto;
     margin-top: 100px;
-    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 @keyframes shadow {
     from {margin-left: -550px;}
@@ -366,19 +478,25 @@ main {
     to {margin-left: 0;}
 }
 .right_food_form .form_photos {
-    display: inline-block;
-    width: 50%;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    
 }
 
 .right_food_form .form_div {
-    display: inline-block;
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 .right_food_form .form_div h2 {
     color: #cc9900;
+    font-size: 36px;
     height: 50px;
-    text-align: center;
     font-family: 'Yeseva One', cursive;
 }
 .right_food_form .form_div .fine_ingredients_divider {
@@ -386,36 +504,48 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/first-right-food-Divider.png);
-    height: 40px;
-}
+    height: 53px;
+    width: 251px;
+}    
 .right_food_form .form_div .text {
+    width: 70%;
     color: #4c4c4c;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     margin-top: 5px;
-    text-align: center;
-    line-height: 2;
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+    line-height: 2.5;
     margin-top: 10px;
     position: relative;
 }
 .right_food_form .form_div form {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.right_food_form .form_div form div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .right_food_form .form_div form input {
     height: 30px;
     margin: 15px;
+    width: 40%;
+    padding: 5px;
 }
 .right_food_form .form_div form input:hover {
-    border-color: #c89f2d;
+    border: 1px solid #c89f2d ;
     box-shadow: none;
 }
 .right_food_form .form_div form button {
+    width: 40%;
     background-color: #c89f2d;
+    color: #f1f3ff;
     border: none;
-    height: 29px;
+    height: 45px;
     transition: 2s;
     -webkit-transition: 2s;
     -moz-transition: 2s;
@@ -428,13 +558,26 @@ main {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #191919;
     min-height: 320px;
     padding-top: 50px;
     margin-top: 90px;
 }
+footer .wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 footer .about_us {
-    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer .fine_ingredients_divider {
     background-size: contain;
@@ -442,12 +585,18 @@ footer .fine_ingredients_divider {
     background-position: center;
     background-image: url(../img/header_Decoration.png);
     height: 45px;
+    width: 150px;
 }
 footer  h4  {
     color: #fff;
     font-size: 20px;
+    font-size: 21px;
 }
 footer .opening_time, .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
     text-align: center;
 }
 footer .opening_time .cards {
@@ -455,9 +604,13 @@ footer .opening_time .cards {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/footer_cards.png);
-    height: 15px;
+    height: 25px;
     margin-top: 35px;
+    width: 115px;
     cursor: pointer;
+}
+footer p {
+    width: 49%;
 }
 footer .location .websites{
     background-size: contain;
@@ -466,25 +619,8 @@ footer .location .websites{
     background-image: url(../img/footer_websites.png);
     height: 15px;
     margin-top: 35px;
+    width: 88px;
     cursor: pointer;
+    
 }
 
-@media only screen and (max-width: 1250px) {
-    .right_food_form .form_photos {
-        display: none;
-    }
-    .right_food_form  {
-        text-align: center;
-    }
-    .hed_men_photo{
-        display: none;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .first_right_food .right_food_photo {
-        display: none;
-    }
-    footer .wrapper {
-        flex-wrap: wrap;
-    }
-}
